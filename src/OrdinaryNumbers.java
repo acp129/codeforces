@@ -19,9 +19,10 @@ public class OrdinaryNumbers {
                 num = num*10+1;
             }
             int count = 0;
-            while(n >= num){
+            int val = num;
+            while(n >= val){
                 count++;
-                num+=num;
+                val+=num;
             }
             System.out.println((size-1)*9+count);
         }
