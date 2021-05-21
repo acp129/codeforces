@@ -1,0 +1,8 @@
+#ignore intellij idea specific files
+.idea
+
+#ignore .iml files
+codeforces.iml
+
+#ignore the output repository
+out

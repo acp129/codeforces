@@ -1,0 +1,2 @@
+codeforces expected java programs to not be part of any special package
+i.e (package com.codeforces will cause a runtime failure)
