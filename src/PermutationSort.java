@@ -1,4 +1,9 @@
-
+/*
+sorted => 0
+not sorted and atleast one of min value and max value in 0th and k-1th position => 1
+min value at k-1th position and max value in 0th position => 3
+all other cases => 2
+ */
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -38,6 +43,10 @@ public class PermutationSort {
             }
             if (min_pos == 0 || max_pos == k-1){
                 System.out.println(1);
+                continue;
+            }
+            if (min_pos == k-1 && max_pos == 0){
+                System.out.println(3);
                 continue;
             }
             //in all other cases print out 2

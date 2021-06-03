@@ -1,4 +1,9 @@
 codeforces expected java programs to not be part of any special package
 i.e (package com.codeforces will cause a runtime failure)
 
-Careful with int/int returning only the quotient.  Potion making threw a curve ball for you.
+Careful with int/int returning only the quotient.  Potion making threw a curve ball.
+
+PermutationSort:
+make sure you read entire problem statement (distinct integers makes a lot of difference)
+break down cases into small and understandable ones.
+Make sure to review all scenarios.
