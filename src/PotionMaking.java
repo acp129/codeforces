@@ -2,6 +2,9 @@
 //this have something to do with gcd?
 //i.e we are trying to find the simplest fraction k/100 (say k = 2, then 1/50, meaning we need 50 steps).
 //simplest logic: return 100/k if that is an integer else return 100;
+//and the above fails with say the test case 3/5, to which the answer should be 5.
+//basically you find the gcp of 100 and k and we're good.
+//need to learn euclid's algo.  
 
 import java.util.Scanner;
 
