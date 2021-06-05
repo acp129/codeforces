@@ -11,3 +11,6 @@ Need to pick up on java collections.
 
 EshagLovesBigArrays:
 none
+
+Collections.sort() sorts to given collection, you don't need to return anything.  How do you generalize
+the behaviour of such functions?  All Collections. operations don't return anything??
